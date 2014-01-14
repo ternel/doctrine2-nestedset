@@ -1,0 +1,21 @@
+{
+    "name": "blt04/doctrine2-nestedset",
+    "type": "library",
+    "description": "Symfony Doctrine2 NestedSet",
+    "keywords": ["doctrine", "nestedset"],
+    "homepage": "http://",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Clay",
+            "email": "bclay@jolicode.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": ">=2.1,<2.5-dev"
+    },
+    "autoload": {
+        "psr-0": { "Tree\\": "lib/" }
+    },
+}
